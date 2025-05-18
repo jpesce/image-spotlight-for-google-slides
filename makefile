@@ -1,5 +1,9 @@
-# Configuration variables (uppercase)
-REQUIRED_TOOLS = jq zip
+# This makefile is used to build releases of the extension.
+# It handles version management and creates zip files for distribution.
+# Requires `jq` and `zip`
+
+# Variables
+REPO_NAME = image-spotlight-for-google-slides
 MANIFEST = manifest.json
 BUILD_DIR = releases
 
@@ -20,7 +24,7 @@ all: build
 build:
 	@mkdir -p $(BUILD_DIR)
 	@version=$$($(call get_version)) || exit 2; \
-	zipname="$(BUILD_DIR)/$$version.zip"; \
+	zipname="$(BUILD_DIR)/$(REPO_NAME)-v$$version.zip"; \
 	while [ -f "$$zipname" ]; do \
 		echo "\n⚒️ Building the release... current version: $$version\n"; \
 		echo "Build file $$zipname already exists."; \
@@ -32,7 +36,7 @@ build:
 			elif [ "$$answer" = "b" ]; then \
 				$(MAKE) bump; \
 				version=$$($(call get_version)) || exit 2; \
-				zipname="$(BUILD_DIR)/$$version.zip"; \
+				zipname="$(BUILD_DIR)/$(REPO_NAME)-v$$version.zip"; \
 				break; \
 			elif [ "$$answer" = "a" ]; then \
 				echo "Aborted."; \
