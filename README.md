@@ -17,18 +17,21 @@ https://github.com/user-attachments/assets/7b19a1a0-1f6c-4833-8038-47d349d4ae0b
 - 🎯 Works seamless in Google Slides
 - 🕊️ 100% Free & Open Source
 
-## Installation
+## Getting started
 
 1. Install from the Chrome Web Store
 2. Open any Google Slides presentation
 3. Click an image
-4. Press **Space** to spotlight it
-5. Press **Esc**, **Space** or click anywhere to return
+4. Press <kbd>Space</kbd> to spotlight it
+5. Press <kbd>Esc</kbd> <kbd>Space</kbd> or click anywhere to return
 
+### Manual installation
+
+To manually install the extension, either download a [release](https://github.com/jpesce/image-spotlight-for-google-slides/releases) or clone the repository and [load it as an unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked).
 
 ## Contributing
 
-Contributions are welcome! Feel free to open an issue or submit a pull request if you'd like to help improve the extension.
+Contributions are welcome! Feel free to [open an issue](https://github.com/jpesce/image-spotlight-for-google-slides/issues) or submit a [pull request](https://github.com/jpesce/image-spotlight-for-google-slides/pulls) if you'd like to help improve the extension.
 
 <br/><br/>
 [![GPLv3 License](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
