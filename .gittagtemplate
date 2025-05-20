@@ -1,0 +1,18 @@
+Release title
+
+Optional short summary or context
+
+Changes:
+- First change, phrased in active voice
+- Second change
+- Third change
+
+# Example:
+# Initial release
+# 
+# Introduces the image spotlight feature and related interactions.
+# 
+# Changes:
+# - Enable image spotlight on click + Space
+# - Exit spotlight mode by pressing Space, Esc, or clicking anywhere
+# - Retain image crop or mask during spotlight
