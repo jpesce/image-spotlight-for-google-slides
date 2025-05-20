@@ -1,10 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Image Zoom for Google Slides",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Zoom in on images in Google Slides by selecting and pressing space. Fast, easy magnification for presentations.",
   "permissions": [
-    "activeTab",
     "storage"
   ],
   "action": {
