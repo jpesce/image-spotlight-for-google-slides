@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Image Zoom for Google Slides",
-  "version": "0.1.1",
+  "name": "Image Spotlight for Google Slides",
+  "version": "0.1.2",
   "description": "Zoom in on images in Google Slides by selecting and pressing space. Fast, easy magnification for presentations.",
   "permissions": [
     "storage"
